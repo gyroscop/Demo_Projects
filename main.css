@@ -1,0 +1,58 @@
+html{
+    font-size: 18px;
+
+}
+body{
+    background-color: #333;
+    color: whitesmoke;
+    display: grid;
+}
+
+.about_upper{
+    border-width: 2em;
+    border-color: aliceblue;
+    text-align: center;
+}
+
+section.about_lower{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* background-repeat: repeat; */
+    text-align: center;
+    grid-template-areas: 
+                "Education Professional-life Personal-Project";
+
+}
+section.about_lower ul{
+    text-align: left;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:hover, a:active{
+    color: #eee;
+}
+
+.vacation-places{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background-repeat: repeat; */
+    text-align: center;
+    grid-template-areas: 
+                "cherrapunji Kaziranga Nameri";
+
+}
+
+
+table, tr, th, td,caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Dibya Sarmah" />
+    <meta
+      name="description"
+      content="practice webpage for freecodecamp training"
+    />
+    <title>My First Webpage</title>
+    <link rel="icon" href="images/html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello Dhoroni!</h1>
+      <nav aria-label="Primary-Nevigation">
+        <h2>মোৰ First Webpage</h2>
+        <ul>
+          <li>
+            <a href="#html">Learning HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Vacation</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <article id="html">
+        <h2><mark>Eat , Sleep and Code </mark></h2>
+        <section>
+          <h2>let me tell you my learning steps</h2>
+
+          <figure>
+            <img
+              src="images/web-development-technologies-that-every-beginner-should-learn.jpg"
+              alt="web-development-technologies-that-every-beginner-should-learn"
+            />
+            <figcaption>web-development-technologies</figcaption>
+          </figure>
+
+          <ol>
+            <li>Go through community classroom roadmap</li>
+            <li>Make a study plan</li>
+            <li>Found HTML course of freecodecamp</li>
+            <li>
+              I usually use resources from
+              <abbr title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/en-US/" target="_blank"
+                  >MDN</a
+                >
+              </abbr>
+            </li>
+          </ol>
+
+          <code>&lt;h1&gt; Hello World ! Lets learn HTML5 &lt;/h1&gt;</code>
+        </section>
+      </article>
+      <hr />
+
+      <article id="vacation">
+        <h2><mark> It's time for a long vacation </mark></h2>
+
+        <section>
+          <h2>Let me talk about a vacation that I am planing</h2>
+          <ul>
+            <li>I have been working hard from past few weeks.</li>
+            <li>So I <em>really need a gateaway</em></li>
+            <li>I want to go for a hiking far from the city</li>
+            <li><strong>Lets Plan !!!</strong></li>
+          </ul>
+
+          <aside>
+            <h4>Hey ! Check out this feature of HTML5</h4>
+            <details>
+              <summary>Guess Where I am Going</summary>
+              <p>
+                I will be travelling to multiple places of magical
+                <mark>north-east</mark> . <br />
+                Suggest me a date to start
+                <input
+                  type="date"
+                  value="2022-09-23"
+                  min="2022-09-23"
+                  max="2022-12-31"
+                />
+              </p>
+            </details>
+          </aside>
+        </section>
+
+        <section>
+          <h3>
+            I have been to below places,they are such indelible places. I want
+            to go to them again
+          </h3>
+          <div class="vacation-places">
+            <div class="cherrapunji">
+              <figure>
+                <img
+                  src="images/cherrapunji.JPG"
+                  alt="Seven Sisters fall in cherrapunji"
+                  width="500"
+                  height="300"
+                  title="Seven Sisters fall in cherrapunji"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <address>
+                    6PVV+2FQ, Nongkalikhai, Cherrapunji, Meghalaya 793111
+                  </address>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="Kaziranga">
+              <figure>
+                <img
+                  src="images/Kaziranga.jpg"
+                  alt="Viewpoint of Kaziranga"
+                  width="500"
+                  height="300"
+                  title="In a viewpoint of Kaziranga"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <address>
+                    H4F7+Q9M, Assam Trunk Rd,Kanchanjuri, Assam 782136
+                  </address>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="Nameri">
+              <figure>
+                <img
+                  src="images/Nameri.jpg"
+                  alt="Bank of Jia-Bhoroli river in Nameri National Park"
+                  width="500"
+                  height="300"
+                  title="In the Bank of Jia-Bhoroli river in Nameri National Park"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <address>WVJG+XV8, Sonitpur, Guwahati, Assam 784001</address>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Let me now tell you about my itenerary</h2>
+
+          <table>
+            <caption>
+              My Itenerary
+            </caption>
+            <thead>
+              <tr>
+                <th>Trips</th>
+                <th scope="col">Date</th>
+                <th scope="col">Place</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">First Trip</th>
+                <td>
+                  <time datetime="2022-10-01">Oct 1</time> -
+                  <time datetime="2022-10-05">Oct 7</time>
+                </td>
+                <td>cherrapunji</td>
+              </tr>
+              <tr>
+                <th scope="row">Second trip</th>
+                <td>
+                  <time datetime="2022-10-08">Oct 8</time> -
+                  <time datetime="2022-10-13">Oct 13</time>
+                </td>
+                <td>Kaziranga</td>
+              </tr>
+              <tr>
+                <th scope="row">Third trip</th>
+                <td>
+                  <time datetime="2022-10-14">Oct 14</time> -
+                  <time datetime="2022-10-19">Oct 19</time>
+                </td>
+                <td>Nameri</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td colspan="3">Backup Plan : Stay in Morigaon and Chill</td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <article id="contact">
+        <h2>Let us plan a trip together</h2>
+        <form action="https://httpbin.org/get" method="get">
+          <p>
+            <label for="firstName">FirstName</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="John"
+              autocomplete="on"
+              required
+              autofocus
+            />
+          </p>
+          <p>
+            <label for="lastName">LastName</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Doe"
+              autocomplete="on"
+              required
+            />
+          </p>
+          <p>
+            <label for="dob">Date of Birth</label>
+            <input
+              type="date"
+              name="dob"
+              id="dob"
+              placeholder="Doe"
+              autocomplete="on"
+              required
+              max="2000-12-31"
+              min="1982-01-01"
+            />
+          </p>
+
+          <p>
+            <label for="address">Address</label>
+            <textarea name="address" id="address"></textarea>
+          </p>
+          <p>
+            <label for="telephone">telephone </label>
+            <input
+              type="tel"
+              name="telephone"
+              id="telephone"
+              placeholder="+91 555 555 5555"
+              autocomplete="on"
+              pattern="+91 [0-9]{3} [0-9]{3} [0-9]{4}"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="place">Choose the Place </label>
+            <select name="place" id="place">
+              <option value="">--No Selection--</option>
+              <option value="cherrapunji">Cherrapunji</option>
+              <option value="Kaziranga">Kaziranga</option>
+              <option value="Nameri">Nameri</option>
+            </select>
+          </p>
+          <p>
+            <label for="count">No of person </label>
+            <input
+              type="number"
+              name="count"
+              id="count"
+              min="1"
+              value="1"
+              required
+            />
+          </p>
+          <p>
+            <label for="password">Password </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Give a strong password"
+              required
+            />
+          </p>
+        </form>
+      </article>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>
+        &lt;&lt;&lt;&copy;<a href="about.html">Dibya Sarmah</a> &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
