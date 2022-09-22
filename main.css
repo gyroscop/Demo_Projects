@@ -54,5 +54,63 @@ table, tr, th, td,caption {
     border: 1px solid #eee;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
-    padding:0.5rem;
+    padding: 0.5rem;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+.multi-selector{
+    width: max-content;
+}
+.multi-selector input{
+    outline: none;
+    border: none;
+}
+
+.select-field,.task,.list{
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.places {
+    display: block;
+    padding-left: 0 ;
+}
+
+.list{
+    box-shadow: 0 30px 60px rgba(206, 199, 199, 0.2);
+    display: none;
+}
+.down-arrow{
+    font-size: 1.2rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.places:hover{
+    background-color: rgb(81, 78, 78);
+}
+
+.show{
+    display: block;
+}
+
+.rotate180{
+    transform: rotate(-180deg);
+}
+
+.form, .pets{
+    width: fit-content;
+}
+
+.otherCount {
+    display: none;
+}
+
+
+.food, .message{
+    width: fit-content;
 }
